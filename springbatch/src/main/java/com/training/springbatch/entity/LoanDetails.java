@@ -18,7 +18,7 @@ public class LoanDetails {
 
 	private Integer loanAccountNumber;
 
-	private Integer loanAmount;
+	private String loanAmount;
 
 	private Integer noOfYears;
 
@@ -65,6 +65,8 @@ public class LoanDetails {
 		this.loanId = loanId;
 	}
 
+	
+
 	public Integer getLoanAccountNumber() {
 		return loanAccountNumber;
 	}
@@ -73,11 +75,11 @@ public class LoanDetails {
 		this.loanAccountNumber = loanAccountNumber;
 	}
 
-	public Integer getLoanAmount() {
+	public String getLoanAmount() {
 		return loanAmount;
 	}
 
-	public void setLoanAmount(Integer loanAmount) {
+	public void setLoanAmount(String loanAmount) {
 		this.loanAmount = loanAmount;
 	}
 

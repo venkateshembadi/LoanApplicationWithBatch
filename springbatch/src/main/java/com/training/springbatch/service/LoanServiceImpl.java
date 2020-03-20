@@ -41,7 +41,7 @@ public class LoanServiceImpl implements LoanService {
 				if (request.getLoanAccountNumber() != null)
 					loanDetails.setLoanAccountNumber(request.getLoanAccountNumber());
 				if (request.getLoanAmount() != null)
-					loanDetails.setLoanAccountNumber(request.getLoanAmount());
+					loanDetails.setLoanAmount("-"+request.getLoanAmount());
 				if (request.getTenure() != null)
 					loanDetails.setTenure(request.getTenure());
 				if (request.getRateOfInterest() !=null)
